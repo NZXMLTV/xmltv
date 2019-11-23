@@ -476,6 +476,10 @@ for a TV series and film/1234 for a movie.
 'hgtv.co.nz': An ID from HGTV OnDemand, with the content tv/1234
 for a TV series and film/1234 for a movie.
 
+'freeviewnz.tv': This is one of potentially three IDs, corresponding to
+a show, season or episode. This is unique for each of these and
+persistant (e.g. one show will always have the same ID). This corresponds
+to the Freeview 'Switch' API used in the official TV Guide app.
 -->
 <!ELEMENT episode-num (#PCDATA)>
 <!ATTLIST episode-num system CDATA "onscreen">
